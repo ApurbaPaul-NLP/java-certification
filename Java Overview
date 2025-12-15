@@ -1,0 +1,72 @@
+# Java Environment Overview
+
+---
+
+## Introduction
+- Java is one of the most widely used programming languages.  
+- It is derived from C and shares similarities with C++.  
+- Java follows the **object-oriented programming (OOP)** paradigm, allowing programmers to define custom data types along with their permitted operations.
+
+---
+
+## Java Runtime Environment (JRE) and JVM
+- To run Java programs, a computer must have **Java Runtime Environment (JRE)** installed.  
+- A key component of JRE is the **Java Virtual Machine (JVM)**, which provides an environment where Java programs interact with the hardware.
+
+---
+
+## Java Source Code and Bytecode
+- A Java program is written as **source code**, which is a text file following Java syntax with a `.java` extension.  
+- Compilation produces **Java bytecode**, saved as a `.class` file.  
+- To compile Java source code, the machine requires the **Java Development Kit (JDK)**, which is an extended version of JRE.
+
+---
+
+## Structure of Java Language in JDK
+- JDK provides two main parts:  
+  1. **java.lang** – the essential core of Java  
+  2. Optional packages – additional source code libraries that can be imported into programs
+
+---
+
+## Writing Java Programs
+- A **text editor** is required to write and edit Java source code.  
+- Some editors provide syntax highlighting and other assistance.  
+- Popular text editors include: **Vim, Emacs, Sublime Text**.
+
+---
+
+## Compilation of Java Programs
+- Converting Java source code into bytecode is called **compilation**.  
+- Compilation can be done using a **Command Line Interface (CLI)**.
+
+### Command Line Interfaces
+- macOS: **Terminal**  
+- Windows: **Command Prompt (cmd)**  
+- Other CLI tools are available for download.
+
+---
+
+### How CLI Works
+- CLI allows users to interact with the computer using text commands.  
+- A command is a sequence of characters typed to perform an action.  
+- While typing, the characters appear on the screen (**echo**).  
+- After pressing **Enter/Return**, the CLI parses the command according to its syntax.  
+- If the command is correct, the action is executed.  
+- The CLI prints output on the screen. If there is too much text, the screen scrolls to show the most recent lines.  
+- If the command is incorrect, an **error message** is displayed.  
+- The CLI shows a **prompt** (e.g., `% ` or `>`) to indicate it is ready for the next command.
+
+---
+
+## Interactive Development Environment (IDE)
+- An **IDE** combines a program editor and CLI with additional features to simplify writing large programs.  
+- Popular Java IDEs: **Eclipse**, **NetBeans**.
+
+---
+
+## Summary
+- Java is object-oriented and platform-independent.  
+- JRE and JVM are needed to run Java programs.  
+- Source code is compiled into bytecode using JDK.  
+- Text editors, CLI, and IDEs facilitate program creation and execution.
